@@ -1,0 +1,17 @@
+Lab employee identity report
+Collected at (UTC): 2026-09-25T13:06:19.2316334+00:00
+Tenant ID: fa8614ce-2e10-441b-b3a4-619052db0946
+User ID: 252af843-34f0-4b48-bffa-7bd64e458d28
+
+DisplayName      : Review HR
+Department       : HR
+JobTitle         : HR Assistant
+DirectGroupCount : 1
+
+Direct group memberships:
+DisplayName   Id
+-----------   --
+LAB-HR-Review 18951c71-5f57-4838-88e4-6a7660e1f427
+
+Scope: profile and direct group memberships only. This is not a complete effective-access review.
+Profile and memberships were read sequentially; they are not an atomic snapshot.

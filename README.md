@@ -9,6 +9,7 @@ A read-only PowerShell lab that reports an employee's profile and direct group m
 - Reusing a script for different users through parameters.
 - Retrieving all membership pages and stopping on query errors.
 - Recording results, timestamps, evidence and testing limitations.
+- Processing multiple users with foreach and recording failures with try/catch.
 
 ## Verified tests
 
@@ -22,7 +23,11 @@ Tests were performed in a personal learning tenant on 25 September 2026 using fi
 
 The script was syntax-checked. Both successful report files were inspected, and the reports folder was checked after the invalid-user test. Other failure paths have not been tested live.
 
-## How it works
+## Batch reporting extension
+
+The [batch reporting walkthrough](BATCH-REPORTING.md) includes the tested loop and evidence for processing two valid users with an invalid ID between them. The failed lookup was recorded, processing continued to Review HR, and the failure details were saved to a text file. This extension uses the original script unchanged and was tested interactively.
+
+## How the single-user script works
 
 1. Uses an existing Microsoft Graph connection and checks that it belongs to the expected lab tenant.
 2. Reads the selected user's name, department and job title.

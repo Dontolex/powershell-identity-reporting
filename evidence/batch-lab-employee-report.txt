@@ -1,0 +1,15 @@
+Lab employee identity report
+Collected at (UTC): 2026-09-25T13:06:16.3259907+00:00
+Tenant ID: fa8614ce-2e10-441b-b3a4-619052db0946
+User ID: 509c8d28-6157-44c4-bf95-588348981d3a
+
+DisplayName      : Lab Employee
+Department       : Operations 
+JobTitle         : Operations Assistant
+DirectGroupCount : 0
+
+Direct group memberships:
+No direct group memberships returned.
+
+Scope: profile and direct group memberships only. This is not a complete effective-access review.
+Profile and memberships were read sequentially; they are not an atomic snapshot.
